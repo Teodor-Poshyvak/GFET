@@ -6,4 +6,21 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="EfCore.SqlServer2008Query" Version="6.0.0" />
+      <PackageReference Include="JJ.Framework.Common" Version="1.5.6877.41321" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.13" />
+      <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.13" />
+      <PackageReference Include="NLog" Version="5.1.1" />
+      <PackageReference Include="NLog.Web.AspNetCore" Version="5.2.1" />
+      <PackageReference Include="Remotion.Linq" Version="2.2.0" />
+      <PackageReference Include="runtime.native.System.Data.SqlClient.sni" Version="4.7.0" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+      <PackageReference Include="System.Linq" Version="4.3.0" />
+      <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+      <PackageReference Include="System.Linq.Queryable" Version="4.3.0" />
+      <PackageReference Include="System.Memory" Version="4.5.5" />
+    </ItemGroup>
+
 </Project>

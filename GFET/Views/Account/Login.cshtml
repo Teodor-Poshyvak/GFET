@@ -7,28 +7,23 @@
 
     
 <div class="form-signin w-100 m-auto">
-<form>
+<form autocomplete="on" method="post" asp-controller="Account" asp-action="Login">
  
   <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
   <div class="form-floating">
-    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-    <label for="floatingInput">Email address</label>
+    <input asp-for="Name" class="form-control  font-weight-bold" type="text">
+    <label for="floatingInput">Login</label>
+     <div class="form-text">Логін повинен бути від 3 до 20 символів!</div>
   </div>
   <div class="form-floating">
-    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    <input autocomplete="new-password" asp-for="Password" class="form-control textbox-dg font-weight-bold text-center" type="password">
     <label for="floatingPassword">Password</label>
   </div>
-
-  <div class="checkbox mb-3">
-    <label>
-      <input type="checkbox" value="remember-me"> Remember me
-    </label>
-  </div>
-  <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+  <button class="w-100 btn btn-lg btn-primary" type="submit" class="btn btn-success">Sign in</button>
   <p class="mt-5 mb-3 text-muted">© 2022-2023</p>
 </form>
 </div>
 
 
-<h2>title</h2>
+

@@ -2,3 +2,29 @@
 @{
     ViewData["Title"] = "Home page";
 }
+
+
+<section class="py-5 text-center container ">
+<div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Доброго часу доби!</h1>
+        <p class="lead text-muted">Ми раді вітати вас на нашому сайті. </p>
+        <p class="lead text-muted">Тут ви можете замовити їжу з вашого улюбленого ресторану. </p>
+    </div>
+    <div class="text-center"  style: left;>
+        <form method="post" action="/Account/Register">
+            <input class="btn btn-warning bg-black text-white" type="submit" value="Register">
+            <input name="__RequestVerificationToken" type="hidden">
+        </form>
+    </div>
+      
+    <div class="text-center"  style: right;>
+        <form method="post" action="/Account/Login">
+            <input class="btn btn-warning bg-black text-white" type="submit" value="Login">
+            <input name="__RequestVerificationToken" type="hidden">
+        </form>
+    </div>
+      
+      
+</div>
+</section>
